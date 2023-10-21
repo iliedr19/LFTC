@@ -1,5 +1,5 @@
-#include "symboltable.cpp" // Include the header file for SymbolTable (assuming it's in a separate file)
-#include <cassert> // Include the header for assert
+#include "symboltable.cpp" 
+#include <cassert> 
 #include <iostream>
 
 int main() {
