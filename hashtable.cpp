@@ -61,11 +61,11 @@ public:
 
 private:
     int hash(const std::string& key) const {
-        int sum_chars = 0;
+        int sum_characters = 0;
         for (char c : key) {
-            sum_chars += c;
+            sum_characters += c;
         }
-        return sum_chars % size;
+        return sum_characters % size;
     }
 };
 
